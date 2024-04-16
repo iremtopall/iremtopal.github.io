@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background:url(resimler/c.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 140px;
+    background-color:rgba(22,112,214,0.1)
+}
+
+.navbar .logo{  
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px,13px;
+    font-family: "Playfair Display", serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:rgba(177, 171, 60, 0.522);
+    border-radius: 2px;
+}
+
+.img{
+    width: 110px;
+    height: 110px;
+    
+}
+
+.paragraf1{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+.paragraf2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.container .box{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 150px;
+
+    
+}
+
+.paragraf3{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 140px;
+}
+
+
+
+.container .foto{
+    left: 0;
+    width: 200px;
+    height: 266px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    float: left;
+}
+
+.iletisim h1{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.iletisim ul{
+float: right;
+margin-right: 615px;
+margin-top: 30px;
+}
+
+.iletisim ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 10px;
+    line-height: 200px;
+    
+}
+
+.iletisim ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px,13px;
+    font-family: "Playfair Display", serif;
+}
+
+
+    table{
+        width: 50%;
+        margin: 30px auto;
+        font-size: 1.3em;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    table,th,td{
+        text-align: center;
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+    
+
+    tbody{
+        height: 400px;
+    }
+    thead{
+        background-color: rgb(34, 92, 216);
+        color: white;
+    }
+    th,td{
+        width: auto;
+        padding: 5px;
+        
+    }
+    .header{
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 2px 1px 5px rgb(171, 171, 236);
+    }
+    tbody tr{
+        background-color: aliceblue;
+    }
+    tbody tr:hover{
+        background-color: rgb(208, 232, 254);
+    }
+    
+
+
+
+
+
